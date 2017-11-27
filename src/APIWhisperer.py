@@ -71,13 +71,6 @@ class APIWhisperer:
         r = requests.get(url, auth=self.auth, verify=False)
         return r
 
-    def get_n_best_sharpes(self, n, ratios):
-        vals = []
-        for key, value in ratios: # key is asset id
-            vals.append((key, value[str(self.RATIO_SHARPE)]["value"])) # append id, sharpe tuple
-        vals = sorted(vals, key=lambda x: x[1]) # Sort by value
-        return vals[:n]
-
     def getNBestSharpe(self, n):
         assets = json.loads(self.getAssetList().content)
         ids = [a["ASSET_DATABASE_ID"]["value"] for a in assets]
@@ -124,4 +117,4 @@ a = APIWhisperer()
 #print(a.getQuote(263).content)
 #print(a.getAssetSharpe(263))
 #print(a.getMultipleAssetSharpe([263, 405]))
-print(a.getNBestSharpe(20))
+#print(a.getNBestSharpe(20))
