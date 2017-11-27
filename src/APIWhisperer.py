@@ -10,6 +10,9 @@ class APIWhisperer:
         self.password = "dolphin39355"
         self.auth = (self.username, self.password)
         self.portfolio = 567
+        self.PF_LABEL = "PORTFOLIO_USER2"
+        self.PF_CURRENCY = "EUR"
+        self.PF_TYPE = "front"
         self.PERIOD_START_DATE = "2012-01-01"
         self.PERIOD_END_DATE = "2017-06-30"
         self.MIN_NAV_PER_LINE = 0.01
@@ -17,6 +20,7 @@ class APIWhisperer:
         self.RATIO_PERFORMANCE = 21
         self.RATIO_VOLATILIY = 18
         self.RATIO_SHARPE = 20
+        self.TARGET_NAV = 10000000  # total value around 10M
 
     def getAssetList(self):
         qry = ("/asset?columns=ASSET_DATABASE_ID"
@@ -119,7 +123,33 @@ class APIWhisperer:
 
     def putPortfolio(self, weightedAssets):
         ids, weights = weightedAssets # expected : [(42, 0.06), (46, 0.1)] etc : id-weight tuples
+        body = json.dumps({
+                           "label":self.PF_LABEL,
+                           "currency": {
+                                "code": self.PF_CURRENCY
+                           },
+                           "type":self.PF_TYPE,
+                           "values": {
+                                "2012-02-01": [
+                                    {
+                                        "asset": {
+                                            "asset": 325,
+                                            "quantity": 6
+                                        }
+                                    }
+                                ]
+                           }
+                           })
+
         # TODO
+
+    def buildAssetQuantities(self, weightedAssets):
+        mainTarget = self.TARGET_NAV
+        print(mainTarget)
+        prices = [(i, self.getAssetPrice(i), w) for i, w in weightedAssets]
+        print(prices)
+        quants = [(i, int((mainTarget * w) / p)) for i, p, w in prices]
+        return quants
 
 a = APIWhisperer()
 #print(a.getAssetList().content)
@@ -130,4 +160,8 @@ a = APIWhisperer()
 #print(a.getAssetSharpe(263))
 #print(a.getMultipleAssetSharpe([263, 405]))
 #print(a.getNBestSharpe(20))
-print(a.getAssetPrice(54))
+#print(a.getAssetPrice(54))
+#with open('bestSharpe.json', 'w') as outfile:
+#    json.dump(a.getNBestSharpe(20), outfile)
+test = [(54, 0.5), (263, 0.5)]
+print(a.buildAssetQuantities(test))
