@@ -31,7 +31,7 @@ class APIWhisperer:
         return r
 
     def getPortfolio(self):
-        qry = "/portfolio/" + self.portfolio + "/dyn_amount_compo"
+        qry = "/portfolio/" + str(self.portfolio) + "/dyn_amount_compo"
         url = self.url + qry
         r = requests.get(url, auth=self.auth, verify=False)
         return r
@@ -48,7 +48,7 @@ class APIWhisperer:
                            })
         url = self.url + qry
         r = requests.post(url, data=body, auth=self.auth, verify=False)
-        data = json.loads(r) # TODO maybe useless
+        data = json.loads(r.content)
         return data[str(self.portfolio)][str(self.RATIO_SHARPE)]["value"]
 
 
@@ -70,19 +70,37 @@ class APIWhisperer:
     # TODO Untested 404
     def getQuote(self, id):
         qry = ("/asset/" + str(id) + "/quote" + "?start_date=" + self.PERIOD_START_DATE + "&end_date=" + self.PERIOD_END_DATE)
-        r = requests.get(self.url + qry, auth=self.auth, verify=False)
+        url = self.url + qry
+        r = requests.get(url, auth=self.auth, verify=False)
         return r
 
     # TODO Untested 404
-    def get_n_best_sharpes(n, ratios):
+    def get_n_best_sharpes(self, n, ratios):
         vals = []
         for key, value in ratios: # key is asset id
             vals.append((key, value[str(self.RATIO_SHARPE)]["value"])) # append id, sharpe tuple
         vals = sorted(vals, key=lambda x: x[1]) # Sort by value
         return vals[:n]
 
+    def getAssetSharpe(self, id):
+        qry = "/ratio/invoke"
+        body = json.dumps({
+                           "ratio":[self.RATIO_SHARPE],
+                           "asset":[id],
+                           "bench":None,
+                           "startDate":self.PERIOD_START_DATE,
+                           "endDate":self.PERIOD_END_DATE,
+                           "frequency":None
+                           })
+        url = self.url + qry
+        r = requests.post(url, data=body, auth=self.auth, verify=False)
+        data = json.loads(r.content)
+        return data[str(id)][str(self.RATIO_SHARPE)]["value"]
 
 a = APIWhisperer()
-print(a.getQuote(263))
-print(a.getRatios(263))
-#print(a.getAssetList())
+#print(a.getAssetList().content)
+#print(a.getPortfolio().content)
+#print(a.getPortfolioSharpe())
+#print(a.getRatios(263).content)
+#print(a.getQuote(263).content)
+#print(a.getAssetSharpe(263))

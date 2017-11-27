@@ -12,7 +12,7 @@ def main(argv):
 
 def extract_dates(quote):
     data = json.loads(quote) # potentially useless
-    dates = [item["date" for item in data]
+    dates = [item["date"] for item in data]
     return dates
 
 def extract_returns(quote):
@@ -35,7 +35,7 @@ def prep_data(assetids):
     returns = pd.DataFrame(data, columns=assets, index=dates)
     avg_rets = returns.mean()
     cov_mat = returns.cov()
-    
+
     return returns, cov_mat, avg_rets
 
 
