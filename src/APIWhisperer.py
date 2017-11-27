@@ -36,6 +36,22 @@ class APIWhisperer:
         r = requests.get(url, auth=self.auth, verify=False)
         return r
 
+    def getPortfolioSharpe(self):
+        qry = "/ratio/invoke"
+        body = json.dumps({
+                           "ratio":[self.RATIO_SHARPE],
+                           "asset":[self.portfolio],
+                           "bench":None,
+                           "startDate":self.PERIOD_START_DATE,
+                           "endDate":self.PERIOD_END_DATE,
+                           "frequency":None
+                           })
+        url = self.url + qry
+        r = requests.post(url, data=body, auth=self.auth, verify=False)
+        data = json.loads(r) # TODO maybe useless
+        return data[str(self.portfolio)][str(self.RATIO_SHARPE)]["value"]
+
+
     # TODO Untested 404
     def getRatios(self, id):
         qry = "/ratio/invoke"
@@ -56,6 +72,7 @@ class APIWhisperer:
         qry = ("/asset/" + str(id) + "/quote" + "?start_date=" + self.PERIOD_START_DATE + "&end_date=" + self.PERIOD_END_DATE)
         r = requests.get(url, auth=self.auth, verify=False)
         return r
+
 
 a = APIWhisperer()
 #a.getQuote(263)
