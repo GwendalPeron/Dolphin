@@ -122,7 +122,6 @@ class APIWhisperer:
         return price
 
     def putPortfolio(self, weightedAssets):
-        ids, weights = weightedAssets # expected : [(42, 0.06), (46, 0.1)] etc : id-weight tuples
         quants = self.buildAssetQuantities(weightedAssets)
         quant_form = self.formatQuantities(quants)
         body = json.dumps({
@@ -137,8 +136,7 @@ class APIWhisperer:
                            })
         qry = "/portfolio/567/dyn_amount_compo"
         url = self.url + qry
-        
-        # r = requests.put(url, auth=self.auth, verify=False)
+        r = requests.put(url, auth=self.auth, verify=False)
 
     def buildAssetQuantities(self, weightedAssets):
         mainTarget = self.TARGET_NAV
@@ -152,7 +150,7 @@ class APIWhisperer:
             res.append({"asset":{"asset":asset, "quantity":quantity}})
         return res
 
-a = APIWhisperer()
+#a = APIWhisperer()
 #print(a.getAssetList().content)
 #print(a.getPortfolio().content)
 #print(a.getPortfolioSharpe())
@@ -164,9 +162,12 @@ a = APIWhisperer()
 #print(a.getAssetPrice(54))
 #with open('bestSharpe.json', 'w') as outfile:
 #    json.dump(a.getNBestSharpe(20), outfile)
-test = [(54, 0.4), (263, 0.4), (405, 0.2)]
-quants = a.buildAssetQuantities(test)
-json = a.formatQuantities(quants)
-print(quants)
-print(json)
-a.putPortfolio(test)
+#test = [(443, 0.05),(460, 0.05),(441, 0.05),(416, 0.05),(393, 0.05),
+#        (471, 0.05),(370, 0.05),(540, 0.05),(478, 0.05),(509, 0.05),
+#        (466, 0.05),(384, 0.05),(419, 0.05),(447, 0.05),(505, 0.05),
+#        (440, 0.05),(389, 0.05),(442, 0.05),(446, 0.05),(530, 0.05)]
+#quants = a.buildAssetQuantities(test)
+#json = a.formatQuantities(quants)
+#print(quants)
+#print(json)
+#a.putPortfolio(test)
