@@ -1,3 +1,4 @@
+import json
 import requests
 from requests.auth import HTTPBasicAuth
 
@@ -35,7 +36,19 @@ class APIWhisperer:
         r = requests.get(url, auth=self.auth, verify=False)
         return r
 
-
+    # Untested 404
+    def getRatios(self, id):
+        qry = "/ratio/invoke"
+        body = json.dumps({
+                           "ratio":[self.RATIO_VOLATILIY, self.RATIO_SHARPE, self.RATIO_PERFORMANCE],
+                           "asset":[id],
+                           "bench":null,
+                           "startDate":"2012-01-01",
+                           "endDate":"2017-06-30",
+                           "frequency":null
+                           })
+        r = requests.post(url, data=body, auth=self.auth, verify=False)
+        return r
 
 a = APIWhisperer()
 print(a.getAssetList())
