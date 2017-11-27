@@ -42,13 +42,14 @@ class APIWhisperer:
         body = json.dumps({
                            "ratio":[self.RATIO_VOLATILIY, self.RATIO_SHARPE, self.RATIO_PERFORMANCE],
                            "asset":[id],
-                           "bench":null,
-                           "startDate":"2012-01-01",
-                           "endDate":"2017-06-30",
-                           "frequency":null
+                           "bench":None,
+                           "startDate":self.PERIOD_START_DATE,
+                           "endDate":self.PERIOD_END_DATE,
+                           "frequency":None
                            })
         r = requests.post(url, data=body, auth=self.auth, verify=False)
         return r
 
 a = APIWhisperer()
-print(a.getAssetList())
+#print(a.getRatios(263))
+#print(a.getAssetList())
