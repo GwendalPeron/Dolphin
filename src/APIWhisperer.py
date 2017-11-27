@@ -47,6 +47,7 @@ class APIWhisperer:
                            "endDate":self.PERIOD_END_DATE,
                            "frequency":None
                            })
+        url = self.url + qry
         r = requests.post(url, data=body, auth=self.auth, verify=False)
         return r
 

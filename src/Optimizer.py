@@ -28,9 +28,9 @@ import cvxopt as opt
 import cvxopt.solvers as optsolvers
 import warnings
 
-class Optimizer:
-    def tangency_portfolio(cov_mat, exp_rets, allow_short=False, min_weight=None, max_weight=None):
-    """
+
+
+'''
     Computes a tangency portfolio, i.e. a maximum Sharpe ratio portfolio.
 
     Note: As the Sharpe ratio is not invariant with respect
@@ -53,52 +53,55 @@ class Optimizer:
     -------
     weights: pandas.Series
         Optimal asset weights.
-    """
-    if not isinstance(cov_mat, pd.DataFrame):
-        raise ValueError("Covariance matrix is not a DataFrame")
+'''
+class Optimizer:
 
-    if not isinstance(exp_rets, pd.Series):
-        raise ValueError("Expected returns is not a Series")
+    def tangency_portfolio(cov_mat, exp_rets, allow_short=False, min_weight=None, max_weight=None):
+        if not isinstance(cov_mat, pd.DataFrame):
+            raise ValueError("Covariance matrix is not a DataFrame")
 
-    if not cov_mat.index.equals(exp_rets.index):
-        raise ValueError("Indices do not match")
+        if not isinstance(exp_rets, pd.Series):
+            raise ValueError("Expected returns is not a Series")
 
-    n = len(cov_mat)
+        if not cov_mat.index.equals(exp_rets.index):
+            raise ValueError("Indices do not match")
 
-    if min_weight is None:
-        min_weight = np.zeros((n, 1))
-    if max_weight is None:
-        max_weight = np.ones((n, 1))
+        n = len(cov_mat)
 
-    min_weight = np.array(min_weight).reshape((n, 1))
-    max_weight = np.array(max_weight).reshape((n, 1))
+        if min_weight is None:
+            min_weight = np.zeros((n, 1))
+        if max_weight is None:
+            max_weight = np.ones((n, 1))
 
-    P = opt.matrix(cov_mat.values)
-    q = opt.matrix(0.0, (n, 1))
+        min_weight = np.array(min_weight).reshape((n, 1))
+        max_weight = np.array(max_weight).reshape((n, 1))
 
-    # Constraints Gx <= h
-    if not allow_short:
-        # exp_rets*x >= 1 and x >= 0
-        # TODO make this exp_rets*x >=1 and 0.01 >= x >= 0.1
-        G = opt.matrix(np.vstack((-exp_rets.values,
-                                  -np.identity(n))))
-        h = opt.matrix(np.vstack((-1.0,
-                                  np.zeros((n, 1)))))
-    else:
-        # exp_rets*x >= 1
-        G = opt.matrix(-exp_rets.values).T
-        h = opt.matrix(-1.0)
+        P = opt.matrix(cov_mat.values)
+        q = opt.matrix(0.0, (n, 1))
 
-    # Solve
-    optsolvers.options['show_progress'] = False
-    sol = optsolvers.qp(P, q, G, h)
+        # Constraints Gx <= h
+        if not allow_short:
+            # exp_rets*x >= 1 and x >= 0
+            # TODO make this exp_rets*x >=1 and 0.01 >= x >= 0.1
+            G = opt.matrix(np.vstack((-exp_rets.values,
+                                      -np.identity(n))))
+            h = opt.matrix(np.vstack((-1.0,
+                                      np.zeros((n, 1)))))
+        else:
+            # exp_rets*x >= 1
+            G = opt.matrix(-exp_rets.values).T
+            h = opt.matrix(-1.0)
 
-    if sol['status'] != 'optimal':
-        warnings.warn("Convergence problem")
+        # Solve
+        optsolvers.options['show_progress'] = False
+        sol = optsolvers.qp(P, q, G, h)
 
-    # Put weights into a labeled series
-    weights = pd.Series(sol['x'], index=cov_mat.index)
+        if sol['status'] != 'optimal':
+            warnings.warn("Convergence problem")
 
-    # Rescale weights, so that sum(weights) = 1
-    weights /= weights.sum()
-    return weights
+        # Put weights into a labeled series
+        weights = pd.Series(sol['x'], index=cov_mat.index)
+
+        # Rescale weights, so that sum(weights) = 1
+        weights /= weights.sum()
+        return weights
