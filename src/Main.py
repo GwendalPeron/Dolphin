@@ -1,5 +1,5 @@
 import APIWhisperer as AW
-import Optimizer as OP
+#import Optimizer as OP
 import numpy as np
 import pandas as pd
 import json
@@ -8,6 +8,13 @@ import sys
 def main(argv):
     api = AW.APIWhisperer()
     opt = OP.Optimizer()
+
+    nb = 20
+    data = api.getNBestSharpe(nb)
+    weights = []
+    for item in data :
+        weights.append((item[0], 1/nb))
+    print(weights)
     print(api.getRatios(253))
 
 def extract_dates(quote):
