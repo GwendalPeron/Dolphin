@@ -3,7 +3,7 @@ X Pull portfolio info
 X For all assets, get financial performance, volatility and Sharpe ratio
 - Select the highest ratio bois
 - Find best 20 combination
-- Obtain timed data for said assets
+X Obtain timed performance data for said assets
 - Format it for processing
 - Implement Markowitz/tangent method with min & max weights
 - Generate portfolio

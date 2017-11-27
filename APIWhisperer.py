@@ -36,7 +36,7 @@ class APIWhisperer:
         r = requests.get(url, auth=self.auth, verify=False)
         return r
 
-    # Untested 404
+    # TODO Untested 404
     def getRatios(self, id):
         qry = "/ratio/invoke"
         body = json.dumps({
@@ -50,6 +50,13 @@ class APIWhisperer:
         r = requests.post(url, data=body, auth=self.auth, verify=False)
         return r
 
+    # TODO Untested 404
+    def getQuote(self, id):
+        qry = ("/asset/" + str(id) + "/quote" + "?start_date=" + self.PERIOD_START_DATE + "&end_date=" + self.PERIOD_END_DATE)
+        r = requests.get(url, auth=self.auth, verify=False)
+        return r
+
 a = APIWhisperer()
+#a.getQuote(263)
 #print(a.getRatios(263))
 #print(a.getAssetList())
