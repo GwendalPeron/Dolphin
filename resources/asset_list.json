@@ -1,0 +1,5096 @@
+[
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ABN-EUR CONV-C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "405"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ACCOR SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "61"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ADIDAS AG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "67"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ADP"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "144"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AGIF-ALZ MU RE R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "376"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AHOL DELHAIZE NV"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "109"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AIRBUS GROUP SE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "31"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AIR LIQUIDE SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "68"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AKZO NOBEL"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "169"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALKEN EUR OPPORT A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "410"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALKEN EUR OPPORT R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "494"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALLIANZ ACTIONS EURO CONVICTIO"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "489"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALLIANZ CHINA C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "508"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALLIANZ EURO HY C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "471"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALLIANZ EURO IMMOBILIER"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "483"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALLIANZ MULTI DYNAMISME"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "481"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALLIANZ MULTI EQUILIBRE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "482"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALLIANZ MULTI HARMONIE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "371"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALLIANZ SE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "147"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALL-STRAT 15-CT="
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "384"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ALZ EU EQ GR-AT"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "341"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AMUN-ATOUT E MND"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "349"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AMUN-ATOUT FRA-D"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "346"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AMUN-AT VERT HOR"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "368"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AMUNDI-ACT PME-C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "386"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AMUNDI-ATOU EU-D"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "347"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AMUNDI BOND EMERG AE C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "490"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AMUNDI OBLIG INT. A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "442"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AMUNDI OBLIG INT. P"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "530"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ANHEUSER-BUSCH I"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "168"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ARBEVEL PLUVALCA SMALLMID"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "356"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ARCELORMITTAL"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "202"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ASML HOLDING NV"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "110"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ASSICURAZ GENERALI"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "233"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ATOS"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "54"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AVIVA-AFER DIV"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "408"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AVIVA-AFER MONDE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "528"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AVIVA AFER PATRIMOINE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "537"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AXA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "28"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AXA EURO CREDIT"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "441"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AXA-EU SH D-E=R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "466"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AXA-FR FR OPP-C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "411"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AXA-STRAT EQUILI"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "422"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AXA WF US HIGH YIELD (H) E"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "416"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "AXIOM OBLIGAT-R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "452"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BANCO SANTANDER"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "173"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BARING-GER GR-="
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "511"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BAYER AG-REG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "225"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BAYER MOTOREN WK"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "6"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BBVA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "207"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BGF-LAT AME-=A2"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "545"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BGF-WLD GLD-=E2"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "544"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BNP-FR BP E DV-C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "549"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BNP PARIBAS"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "103"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BOLLORE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "262"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BOUYGUES SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "9"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BRONGNIART RENDEMENT"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "391"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "BSF FIXED INCOME A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "364"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CAIXABANK S.A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "208"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CAP GEMINI"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "29"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CARM-CAP-P AA-EU"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "390"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CARM-GR-EU AA EU"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "531"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CARMIGNAC COMMODITIES"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "467"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CARMIGNAC EM DISC. €"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "498"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CARMIGNAC EMERGENTS"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "532"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CARMIGNAC Investissement"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "409"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CARMIGNAC INV LATITUDE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "526"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CARMIGNAC PATRIMOINE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "470"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CARREFOUR SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "26"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CCR OPPORTUNITES MONDE 50"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "440"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CHRISTIAN DIOR"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "117"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CIC-IND AMER 500"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "426"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CM CIC FRANCE D"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "423"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CNP ASSURANCES"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "252"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "COMGEST GEM PROM €"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "342"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "COMGEST GROWTH MIDCAP A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "497"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "COMGEST MAGELLAN C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "488"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "COMGEST MONDE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "533"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "COMGEST NOUVELLE ASIE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "461"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "COMMERZBANK"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "123"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CONTINENTAL AG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "66"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "COVEA-ACT ASIE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "403"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "COVEA-A-FRANCE-C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "529"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "COVEA MULTI EURP"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "541"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CPR Actions France"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "348"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CPR Europe Nouvelle"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "425"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CPR FOCUS INFLATION P"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "379"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CPR GLOBAL INFLATION"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "527"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CPR SILVER AGE - P"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "462"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CREDIT AGRICOLE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "53"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "CRH PLC"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "72"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DAIMLER AG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "182"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DANONE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "65"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DASSAULT AVIATION"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "308"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DASSAULT SYSTEME"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "140"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DEUTSCHE BANK-RG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "331"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DEUTSCHE BOERSE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "170"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DEUTSCHE POST-RG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "30"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DEUTSCHE TELEKOM"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "7"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DEUTSCHE WOHN-BR"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "82"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DIGITAL-ST E-ACC"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "493"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DNCA CENTIFOLIA C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "534"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DNCA EUROSE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "509"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DNCA-EVOLUTIF"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "552"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DNCA-GALLICA - D"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "413"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DNCA GLOBAL LEADERS A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "457"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DNCA MIURA B"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "515"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DNCA MIURI B"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "517"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DNCA MIURI I"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "357"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DNCA VALUE EUROPE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "427"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DSM (KONIN)"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "314"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "DWS GL AGRIBUSINESS C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "535"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ECHIQ AGENOR"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "484"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ECHIQ AGRESSOR PEA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "383"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ECHIQUIER AGRESSOR"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "374"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ECHIQUIER MAJOR"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "353"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ECHIQUIER OBLIGS"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "460"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ECHIQUIER PATRIMOINE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "373"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "EDF"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "14"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "EDP"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "179"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ENDESA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "106"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ENGIE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "13"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ENI SPA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "97"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ERSTE GROUP BANK"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "235"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ESSILOR INTL"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "185"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "EVLI EUROPE B"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "512"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "EXANE-PLE FN P"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "392"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "EXANE PLEIADE PERF P"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "477"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FEDERAL CONVIC. ISR A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "367"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FF AMERICA A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "351"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FF EMERGING MARKETS E"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "500"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FF EURO HIGH YIELD AC"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "419"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FF EURO HY A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "514"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FF EUROPE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "525"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FF EUROP GRW (A)"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "429"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FF INTERNATIONAL A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "501"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FIDELITY EURO ST BOND A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "475"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FRANKLIN BEACON FUND"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "445"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FRANKLIN BEACON FUND ACC"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "378"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FRANKLIN US EQUITY FUND"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "359"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FRESENIUS MEDICA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "188"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "FRESENIUS SE & C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "226"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "GAMESA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "113"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "GF FIDELITE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "380"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "GRIFOLS SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "45"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "GROUPAMA ETAT EUR I"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "538"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "GS INDIA E"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "507"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "H2O MODERATO R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "557"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "H2O MULTIBONDS"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "437"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "HEIDELBERGCEMENT"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "152"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "HEINEKEN HLDG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "4"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "HENKEL AG -PFD"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "339"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "HERMES INTL"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "69"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "HMG DECOUVERTE C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "505"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "HOCHTIEF AG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "292"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "HSBC SMALLCAP FRANCE A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "421"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ILIAD SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "212"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "INFINEON TECH"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "213"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "INTESA SANPAOLO"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "122"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "INTL CONS AIRLIN"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "336"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "INVESCO EU EQUITY A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "553"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "INVESCO EURO CORP BD E"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "540"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "IPSEN"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "322"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "JPM Africa A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "449"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "JPM-EU ST VL-A="
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "463"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "JPM-IN OP-A=AH"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "393"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "JPM MACRO OPPORTUNITIES D"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "412"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "JP MORGAN EM SMALL A€"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "343"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "KBL-RICH CR PME"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "394"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "KBL RICHELIEU SPECIAL"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "465"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "KERING"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "102"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "KLEPIERRE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "145"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "KONINKLIJKE PHIL"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "200"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "L'OREAL"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "64"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "LAFFITTE RISK ARB A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "448"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "LAZARD OBJECTIF CRÉDIT FI"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "447"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "LAZARD OBJECTIF PATRIMOINE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "518"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "LEGRAND SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "118"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "LINDE AG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "81"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "LO-EUR HIGH CONV"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "496"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "LUXOTTICA GROUP"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "166"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "LVMH MOET HENNE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "139"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "M&G-DYN ALLO-AA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "404"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "M&G GLOBAL DIV A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "453"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "M&G GLOBAL MACRO BOND"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "516"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "M&G OPTIMAL INCOME FUND"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "443"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "MANDARINE OPPORTUNITES"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "439"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "MANDARINE UNIQUE S/M R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "476"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "MANDARINE VALE-R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "381"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "MAN SE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "176"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "MICHELIN"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "27"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "MIRABAUD SPAIN A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "473"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "MONETA LONG SHORT A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "417"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "MONETA LONG SHORT R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "556"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "MONETA Multicaps A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "521"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "NATIXIS"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "112"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "NATIXIS-ACT MICR"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "396"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "NEUFLIZE-FRANC-C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "406"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "NORDEA STABLE RETURN P"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "414"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "NORDEN"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "377"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "NOVO NORDISK-B"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "93"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ODDO-AVENIR-CR="
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "492"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ODDO INVESTISSEMENT"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "451"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ODDO PATRIMOINE A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "450"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "OMV AG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "319"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ORANGE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "19"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PARVEST BOND EMERG C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "399"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PARVEST RUSSIA C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "395"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PARVEST SMALLCAP C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "499"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PARVEST WORLD COMM E"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "402"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PARVEST WORLD INFLATION"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "520"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PERNOD RICARD SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "34"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PETERCAM HIGH YIELD"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "444"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PEUGEOT SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "32"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PICTET WATER P"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "352"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PICTET WATER R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "546"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PIM INV.GRADE Credit EUR"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "370"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PORTFOLIO_USER2"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "567"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "PORTFOLIO"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PRF EU MULTI DYN"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "558"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "PUBLICIS GROUPE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "33"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "RENAISSANCE EUROPE C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "519"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "RENAULT SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "263"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "REPSOL SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "190"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ROBEC-US P E-DH="
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "547"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ROCHE BRUNE EUROPE ACTIONS C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "433"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ROUVIER EUROPE C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "480"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ROUVIER PATRIMOINE C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "478"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ROUVIER VALEURS C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "479"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ROYAL DUTCH SH-A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "247"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "RYANAIR HLDGS"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "175"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SAFRAN SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "146"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SAINT GOBAIN"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "25"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SAINT-HONORE EURO LEADERS"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "485"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SANOFI"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "10"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SAP SE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "238"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SCHLUMBERGER LTD"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "306"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SCHNEIDER ELECTR"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "189"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SEXTANT AUTOUR MONDE A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "420"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SEXTANT GR LARGE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "522"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SEXTANT PEA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "389"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SEXTANT PME A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "455"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SG-FR LRGE CAP-C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "548"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SIEMENS AG-REG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "183"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SISF ITALIAN EQUITY A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "366"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SISF ITALIAN EQUITY I"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "365"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SNAM SPA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "198"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SOC GENERALE SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "11"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SODEXO"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "167"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SOLVAY SA-A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "217"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ST MICROELEC."
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "104"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "STRATEGIE PORT. MONDE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "536"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "SYCOMORE EUROPEAN GROWTH R"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "486"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TELECOM ITALIA S"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "282"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TELEFONICA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "193"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TEMP. GLOBAL BOND A"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "550"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TEMPLETON EMERG. BOND I"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "358"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TEMPLETON GLOBAL TR FUND"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "446"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TENARIS SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "320"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "THALES SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "22"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "THYSSENKRUPP AG"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "291"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TOCQUEVILLE ULYSSE C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "523"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TOCQUEVILLE VALUE EUROPE-P"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "456"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TOTAL SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "8"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "TRICOLORE RENDEMENT - LCFR (C)"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "388"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "UCB SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "321"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ULYSSES LT FUND EU C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "355"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "ULYSSES LT FUND EU I"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "468"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "UNIBAIL-RODAMCO"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "116"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "UNICREDIT SPA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "155"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "UNILEVER NV"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "268"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "UNION ENTREPRENEURS FCP 3DEC"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "491"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VALEO SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "115"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VEGA-VARE VALE-C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "438"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VENDOME SELECTION C"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "401"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VEOLIA ENVIRONNE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "135"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VICT-AFER EUROSF"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "542"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VICT-AFER FLORE"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "543"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VICT-AFER SFER"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "539"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "FUND"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VINCI SA"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "35"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VIVENDI"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "24"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "VOLKSWAGEN-PREF"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "332"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "WARTSILA OYJ ABP"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "111"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    },
+    {
+        "CURRENCY": {
+            "type": "asset_currency",
+            "value": "EUR"
+        },
+        "LABEL": {
+            "type": "string",
+            "value": "WOLTERS KLUWER"
+        },
+        "ASSET_DATABASE_ID": {
+            "type": "int32",
+            "value": "98"
+        },
+        "TYPE": {
+            "type": "asset_type",
+            "value": "STOCK"
+        }
+    }
+]

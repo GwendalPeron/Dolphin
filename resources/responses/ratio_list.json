@@ -1,0 +1,65 @@
+[
+    {
+        "id": 15,
+        "type": "Ratio",
+        "name": "Beta",
+        "is_benchmark_needed": true,
+        "is_percent": false
+    },
+    {
+        "id": 19,
+        "type": "Ratio",
+        "name": "Correlation",
+        "is_benchmark_needed": true,
+        "is_percent": false
+    },
+    {
+        "id": 29,
+        "type": "Ratio",
+        "name": "Exposition action",
+        "is_benchmark_needed": false,
+        "is_percent": true
+    },
+    {
+        "id": 16,
+        "type": "Ratio",
+        "name": "RDT",
+        "is_benchmark_needed": false,
+        "is_percent": true
+    },
+    {
+        "id": 21,
+        "type": "Ratio",
+        "name": "Rendement",
+        "is_benchmark_needed": false,
+        "is_percent": true
+    },
+    {
+        "id": 17,
+        "type": "Ratio",
+        "name": "Rendement_annualise",
+        "is_benchmark_needed": false,
+        "is_percent": true
+    },
+    {
+        "id": 20,
+        "type": "Ratio",
+        "name": "Sharpe",
+        "is_benchmark_needed": false,
+        "is_percent": false
+    },
+    {
+        "id": 22,
+        "type": "Ratio",
+        "name": "VaR historique",
+        "is_benchmark_needed": false,
+        "is_percent": true
+    },
+    {
+        "id": 18,
+        "type": "Ratio",
+        "name": "Volatilite",
+        "is_benchmark_needed": false,
+        "is_percent": true
+    }
+]
