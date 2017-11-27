@@ -64,7 +64,7 @@ class APIWhisperer:
                            "frequency":None
                            })
         url = self.url + qry
-        r = requests.post(self.url, data=body, auth=self.auth, verify=False)
+        r = requests.post(url, data=body, auth=self.auth, verify=False)
         return r
 
     # TODO Untested 404
