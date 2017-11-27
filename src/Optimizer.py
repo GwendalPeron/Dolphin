@@ -31,6 +31,7 @@ import warnings
 
 
 '''
+    tangency_portfolio(cov_mat, exp_rets, allow_short=False, min_weight=None, max_weight=None)
     Computes a tangency portfolio, i.e. a maximum Sharpe ratio portfolio.
 
     Note: As the Sharpe ratio is not invariant with respect
@@ -55,7 +56,6 @@ import warnings
         Optimal asset weights.
 '''
 class Optimizer:
-
     def tangency_portfolio(cov_mat, exp_rets, allow_short=False, min_weight=None, max_weight=None):
         if not isinstance(cov_mat, pd.DataFrame):
             raise ValueError("Covariance matrix is not a DataFrame")

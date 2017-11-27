@@ -73,6 +73,14 @@ class APIWhisperer:
         r = requests.get(url, auth=self.auth, verify=False)
         return r
 
+    # TODO Untested 404
+    def get_n_best_sharpes(n, ratios):
+        vals = []
+        for key, value in ratios: # key is asset id
+            vals.append((key, value[str(self.RATIO_SHARPE)]["value"])) # append id, sharpe tuple
+        vals = sorted(vals, key=lambda x: x[1]) # Sort by value
+        return vals[:n]
+
 
 a = APIWhisperer()
 #a.getQuote(263)
