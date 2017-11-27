@@ -51,8 +51,6 @@ class APIWhisperer:
         data = json.loads(r.content)
         return data[str(self.portfolio)][str(self.RATIO_SHARPE)]["value"]
 
-
-    # TODO Untested 404
     def getRatios(self, id):
         qry = "/ratio/invoke"
         body = json.dumps({
@@ -67,19 +65,24 @@ class APIWhisperer:
         r = requests.post(url, data=body, auth=self.auth, verify=False)
         return r
 
-    # TODO Untested 404
     def getQuote(self, id):
         qry = ("/asset/" + str(id) + "/quote" + "?start_date=" + self.PERIOD_START_DATE + "&end_date=" + self.PERIOD_END_DATE)
         url = self.url + qry
         r = requests.get(url, auth=self.auth, verify=False)
         return r
 
-    # TODO Untested 404
     def get_n_best_sharpes(self, n, ratios):
         vals = []
         for key, value in ratios: # key is asset id
             vals.append((key, value[str(self.RATIO_SHARPE)]["value"])) # append id, sharpe tuple
         vals = sorted(vals, key=lambda x: x[1]) # Sort by value
+        return vals[:n]
+
+    def getNBestSharpe(self, n):
+        assets = json.loads(self.getAssetList().content)
+        ids = [a["ASSET_DATABASE_ID"]["value"] for a in assets]
+        sharpes = self.getMultipleAssetSharpe(ids)
+        vals = sorted(sharpes, key=lambda x: x[1], reverse=True) # Sort by value
         return vals[:n]
 
     def getAssetSharpe(self, id):
@@ -97,6 +100,22 @@ class APIWhisperer:
         data = json.loads(r.content)
         return data[str(id)][str(self.RATIO_SHARPE)]["value"]
 
+    def getMultipleAssetSharpe(self, ids):
+        qry = "/ratio/invoke"
+        body = json.dumps({
+                           "ratio":[self.RATIO_SHARPE],
+                           "asset":ids,
+                           "bench":None,
+                           "startDate":self.PERIOD_START_DATE,
+                           "endDate":self.PERIOD_END_DATE,
+                           "frequency":None
+                           })
+        url = self.url + qry
+        r = requests.post(url, data=body, auth=self.auth, verify=False)
+        data = json.loads(r.content)
+        sharpes = [(asset, data[asset][str(self.RATIO_SHARPE)]["value"]) for asset in data]
+        return sharpes
+
 a = APIWhisperer()
 #print(a.getAssetList().content)
 #print(a.getPortfolio().content)
@@ -104,3 +123,5 @@ a = APIWhisperer()
 #print(a.getRatios(263).content)
 #print(a.getQuote(263).content)
 #print(a.getAssetSharpe(263))
+#print(a.getMultipleAssetSharpe([263, 405]))
+print(a.getNBestSharpe(20))
