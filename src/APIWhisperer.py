@@ -64,13 +64,13 @@ class APIWhisperer:
                            "frequency":None
                            })
         url = self.url + qry
-        r = requests.post(url, data=body, auth=self.auth, verify=False)
+        r = requests.post(self.url, data=body, auth=self.auth, verify=False)
         return r
 
     # TODO Untested 404
     def getQuote(self, id):
         qry = ("/asset/" + str(id) + "/quote" + "?start_date=" + self.PERIOD_START_DATE + "&end_date=" + self.PERIOD_END_DATE)
-        r = requests.get(url, auth=self.auth, verify=False)
+        r = requests.get(self.url, auth=self.auth, verify=False)
         return r
 
     # TODO Untested 404
