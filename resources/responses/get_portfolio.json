@@ -1,0 +1,17 @@
+{
+    "label": "PORTFOLIO_USER2",
+    "currency": {
+        "code": "EUR"
+    },
+    "type": "front",
+    "values": {
+        "2012-02-01": [
+            {
+                "asset": {
+                    "asset": 325,
+                    "quantity": 6
+                }
+            }
+        ]
+    }
+}

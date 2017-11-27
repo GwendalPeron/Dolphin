@@ -109,6 +109,18 @@ class APIWhisperer:
         sharpes = [(asset, data[asset][str(self.RATIO_SHARPE)]["value"]) for asset in data]
         return sharpes
 
+    def getAssetPrice(self, id):
+        qry = ("/asset/" + str(id) + "/quote" + "?start_date=" + "2011-12-30" + "&end_date=" + self.PERIOD_START_DATE)
+        url = self.url + qry
+        r = requests.get(url, auth=self.auth, verify=False)
+        data = json.loads(r.content)
+        price = data[0]["nav"]
+        return price
+
+    def putPortfolio(self, weightedAssets):
+        ids, weights = weightedAssets # expected : [(42, 0.06), (46, 0.1)] etc : id-weight tuples
+        # TODO
+
 a = APIWhisperer()
 #print(a.getAssetList().content)
 #print(a.getPortfolio().content)
@@ -118,3 +130,4 @@ a = APIWhisperer()
 #print(a.getAssetSharpe(263))
 #print(a.getMultipleAssetSharpe([263, 405]))
 #print(a.getNBestSharpe(20))
+print(a.getAssetPrice(54))
