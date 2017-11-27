@@ -123,6 +123,8 @@ class APIWhisperer:
 
     def putPortfolio(self, weightedAssets):
         ids, weights = weightedAssets # expected : [(42, 0.06), (46, 0.1)] etc : id-weight tuples
+        quants = self.buildAssetQuantities(weightedAssets)
+        quant_form = self.formatQuantities(quants)
         body = json.dumps({
                            "label":self.PF_LABEL,
                            "currency": {
@@ -130,26 +132,25 @@ class APIWhisperer:
                            },
                            "type":self.PF_TYPE,
                            "values": {
-                                "2012-02-01": [
-                                    {
-                                        "asset": {
-                                            "asset": 325,
-                                            "quantity": 6
-                                        }
-                                    }
-                                ]
+                                "2012-01-01": quant_form
                            }
                            })
-
-        # TODO
+        qry = "/portfolio/567/dyn_amount_compo"
+        url = self.url + qry
+        
+        # r = requests.put(url, auth=self.auth, verify=False)
 
     def buildAssetQuantities(self, weightedAssets):
         mainTarget = self.TARGET_NAV
-        print(mainTarget)
         prices = [(i, self.getAssetPrice(i), w) for i, w in weightedAssets]
-        print(prices)
         quants = [(i, int((mainTarget * w) / p)) for i, p, w in prices]
         return quants
+
+    def formatQuantities(self, quants):
+        res = []
+        for asset, quantity in quants:
+            res.append({"asset":{"asset":asset, "quantity":quantity}})
+        return res
 
 a = APIWhisperer()
 #print(a.getAssetList().content)
@@ -163,5 +164,9 @@ a = APIWhisperer()
 #print(a.getAssetPrice(54))
 #with open('bestSharpe.json', 'w') as outfile:
 #    json.dump(a.getNBestSharpe(20), outfile)
-test = [(54, 0.5), (263, 0.5)]
-print(a.buildAssetQuantities(test))
+test = [(54, 0.4), (263, 0.4), (405, 0.2)]
+quants = a.buildAssetQuantities(test)
+json = a.formatQuantities(quants)
+print(quants)
+print(json)
+a.putPortfolio(test)
